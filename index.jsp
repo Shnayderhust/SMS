@@ -96,7 +96,7 @@
       </div>
     </aside>
     <main class="w-4/5 h-full overflow-y-auto">
-      <header class="w-full h-24 bg-slate-500">
+      <header class="w-full h-24 bg-slate-500 flex justify-between">
         <div>
           <p>Welcom, Shnayder</p>
         </div>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -130,56 +130,68 @@
       </header>
       <div class="timetable h-40 w-full">
         <p>Today's Timetable</p>
-        <div
-          class="flex h-32 w-full overflow-y-hidden overflow-x-scroll items-end"
-        >
-          <div
-            class="w-64 h-28 rounded-md border-2 border-violet-300 p-2 flex flex-col justify-between bg-indigo-50 mr-4"
-          >
-            <div class="time flex">
-              <p class="text-base font-bold text-blue-600">9:00 am</p>
-              <p class="time text-base font-thin text-blue-600">-10:00 am</p>
-            </div>
-            <div>
-              <p class="font-bold">Database Management</p>
-              <p class="font-thin">ERD and Normalization</p>
-            </div>
-          </div>
+        <div class="w-full h-32">
+          <div class="w-90 h-32">
+            <div
+              class="flex h-32 w-full overflow-y-hidden overflow-x-scroll items-end bg-red ml-4"
+            >
+              <div
+                class="h-28 w-64 rounded-md border-2 border-violet-300 p-2 flex flex-col justify-between bg-indigo-50 mr-4"
+              >
+                <div class="time flex">
+                  <p class="text-base font-bold text-blue-600">9:00 am</p>
+                  <p class="time text-base font-thin text-blue-600">
+                    -10:00 am
+                  </p>
+                </div>
+                <div>
+                  <p class="font-bold">Database Management</p>
+                  <p class="font-thin">ERD and Normalization</p>
+                </div>
+              </div>
 
-          <div
-            class="w-64 h-28 rounded-md border-2 border-violet-300 p-2 flex flex-col justify-between bg-indigo-50 mr-4"
-          >
-            <div class="time flex">
-              <p class="text-base font-bold text-blue-600">9:00 am</p>
-              <p class="time text-base font-thin text-blue-600">-10:00 am</p>
-            </div>
-            <div>
-              <p class="font-bold">Database Management</p>
-              <p class="font-thin">ERD and Normalization</p>
-            </div>
-          </div>
-          <div
-            class="w-64 h-28 rounded-md border-2 border-violet-300 p-2 flex flex-col justify-between bg-indigo-50 mr-4"
-          >
-            <div class="time flex">
-              <p class="text-base font-bold text-blue-600">9:00 am</p>
-              <p class="time text-base font-thin text-blue-600">-10:00 am</p>
-            </div>
-            <div>
-              <p class="font-bold">Database Management</p>
-              <p class="font-thin">ERD and Normalization</p>
-            </div>
-          </div>
-          <div
-            class="w-64 h-28 rounded-md border-2 border-violet-300 p-2 flex flex-col justify-between bg-indigo-50 mr-4"
-          >
-            <div class="time flex">
-              <p class="text-base font-bold text-blue-600">9:00 am</p>
-              <p class="time text-base font-thin text-blue-600">-10:00 am</p>
-            </div>
-            <div>
-              <p class="font-bold">Database Management</p>
-              <p class="font-thin">ERD and Normalization</p>
+              <div
+                class="w-64 h-28 rounded-md border-2 border-violet-300 p-2 flex flex-col justify-between bg-indigo-50 mr-4"
+              >
+                <div class="time flex">
+                  <p class="text-base font-bold text-blue-600">9:00 am</p>
+                  <p class="time text-base font-thin text-blue-600">
+                    -10:00 am
+                  </p>
+                </div>
+                <div>
+                  <p class="font-bold">Database Management</p>
+                  <p class="font-thin">ERD and Normalization</p>
+                </div>
+              </div>
+              <div
+                class="w-64 h-28 rounded-md border-2 border-violet-300 p-2 flex flex-col justify-between bg-indigo-50 mr-4"
+              >
+                <div class="time flex">
+                  <p class="text-base font-bold text-blue-600">9:00 am</p>
+                  <p class="time text-base font-thin text-blue-600">
+                    -10:00 am
+                  </p>
+                </div>
+                <div>
+                  <p class="font-bold">Database Management</p>
+                  <p class="font-thin">ERD and Normalization</p>
+                </div>
+              </div>
+              <div
+                class="w-64 h-28 rounded-md border-2 border-violet-300 p-2 flex flex-col justify-between bg-indigo-50 mr-4"
+              >
+                <div class="time flex">
+                  <p class="text-base font-bold text-blue-600">9:00 am</p>
+                  <p class="time text-base font-thin text-blue-600">
+                    -10:00 am
+                  </p>
+                </div>
+                <div>
+                  <p class="font-bold">Database Management</p>
+                  <p class="font-thin">ERD and Normalization</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -545,5 +557,6 @@
         </div>
       </div>
     </main>
+    <script src="./src/js/main.js"></script>
   </body>
 </html>
